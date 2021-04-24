@@ -1,0 +1,21 @@
+{
+    "name": "frankdev/enum",
+    "description": "An Eloquent enum package for laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Francisco Barrento",
+            "email": "francisco.barrento@bdynamic.pt"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bootify\\Enum\\" : "src"
+        }
+    },
+    "require": {
+        "php" : ">=5.6.0",
+        "illuminate/database": ">= 5.4",
+        "illuminate/support": ">= 5.4"
+    }
+}
